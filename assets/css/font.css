@@ -1,0 +1,43 @@
+@media (max-width : 992px) {
+    .container {
+        padding:  0 10px;
+    }
+    .trigger-block {
+        max-width: 300px;
+        height: 230px;
+    }
+    .trigger-block__number {
+        font-size: 55px;
+    }
+    .trigger-block__text {
+        font-size: 22px;
+    }
+    .section-title-fon {
+        left: 12%;
+    }
+    .categories-row  {
+       justify-content: center;
+    }
+    .big-card {
+        width: 370px;
+    }
+    .categories-row {
+        flex-wrap: wrap;
+    }
+    .categories-block--7 {
+        display: none;
+    }
+    .vicos-card {
+       display: block;
+       width: 770px;
+       margin-top: 30px;
+    }
+    .categories-block--5 {
+        margin-left: 30px;
+    }
+    .bg-rectangle {
+        width: 100%;
+        height: 88%;
+        right: -40px;
+    }
+}

@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   <!-- Styles -->
+   <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="assets/css/font.css">
+   <title>Ткани</title>
+</head>
+
+<body>
+   <!-- ? header -->
+   <header class="header" id="header">
+      <div class="container">
+         <div class="header-wrapper header-wrapper--first-line">
+            <a href="#" class="logo">
+               <span>Ткани</span>
+            </a>
+            <div class="search-block-wrapper">
+               <span class="location">
+                  Санкт-Петербург
+               </span>
+               <input type="search" class="search-field" placeholder="Я ищу">
+            </div>
+            <div class="info-and-features-block">
+               <div class="info-block-wrapper">
+                  <a href="tel:88009007090" class="phone-number">8 800 900 70 90</a>
+                  <span class="work-schedule">Пн-вс: 10:00 - 21:00</span>
+               </div>
+               <div class="features-block-wrapper">
+                  <button type="button" class="feature">
+                     <span class="liked"></span>
+                  </button>
+                  <button type="button" class="feature">
+                     <span class="user-cabinet"></span>
+                  </button>
+                  <button type="button" class="feature feature-bag">
+                     <span class="bag"></span>
+                     <span class="quanity-of-products">12</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="header-wrapper header-wrapper--second-line">
+            <ul class="header-menu">
+               <li class="header-menu__line">
+                  <span class="header-menu__item" data-line="1">Для одежды</span>
+                  <div class="menu-wrapper menu-wrapper--1" data-menu="1">
+                     <div class="container menu-container">
+                        <div class="menu-items">
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Атлас</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бархат</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Батист</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Букле</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бязь</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельвет</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельсофт</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Джинс</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Дублерин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Замша</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Кожа искусственная</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Костюмные</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Коттон</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Креп</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Мех искусственный</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Муслин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Неопрен</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Органза</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пайетки</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пальтовые</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Парча</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сетка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сорочечные ткани</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тафта</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тиси</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань для печворка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань трикотаж</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Утеплители</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li class="header-menu__line">
+                  <span class="header-menu__item" data-line="2">Для интерьера</span>
+                  <div class="menu-wrapper menu-wrapper--2" data-menu="2">
+                     <div class="container menu-container">
+                        <div class="menu-items">
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Атлас</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бархат</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Батист</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Букле</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бязь</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельвет</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельсофт</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Джинс</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Дублерин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Замша</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Кожа искусственная</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Костюмные</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Коттон</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Креп</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Мех искусственный</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Муслин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Неопрен</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Органза</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пайетки</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пальтовые</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Парча</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сетка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сорочечные ткани</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тафта</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тиси</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань для печворка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань трикотаж</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Утеплители</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li class="header-menu__line">
+                  <span class="header-menu__item" data-line="3">Мебельные</span>
+                  <div class="menu-wrapper menu-wrapper--3" data-menu="3">
+                     <div class="container menu-container">
+                        <div class="menu-items">
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Атлас</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бархат</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Батист</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Букле</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бязь</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельвет</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельсофт</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Джинс</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Дублерин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Замша</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Кожа искусственная</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Костюмные</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Коттон</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Креп</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Мех искусственный</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Муслин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Неопрен</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Органза</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пайетки</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пальтовые</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Парча</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сетка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сорочечные ткани</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тафта</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тиси</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань для печворка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань трикотаж</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Утеплители</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li class="header-menu__line">
+                  <span class="header-menu__item" data-line="4">Фурнитура</span>
+                  <div class="menu-wrapper menu-wrapper--4" data-menu="4">
+                     <div class="container menu-container">
+                        <div class="menu-items">
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Атлас</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бархат</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Батист</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Букле</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бязь</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельвет</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельсофт</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Джинс</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Дублерин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Замша</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Кожа искусственная</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Костюмные</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Коттон</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Креп</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Мех искусственный</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Муслин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Неопрен</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Органза</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пайетки</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пальтовые</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Парча</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сетка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сорочечные ткани</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тафта</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тиси</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань для печворка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань трикотаж</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Утеплители</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li class="header-menu__line">
+                  <span class="header-menu__item" data-line="5">Пряжа</span>
+                  <div class="menu-wrapper menu-wrapper--5" data-menu="5">
+                     <div class="container menu-container">
+                        <div class="menu-items">
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Атлас</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бархат</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Батист</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Букле</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бязь</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельвет</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельсофт</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Джинс</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Дублерин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Замша</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Кожа искусственная</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Костюмные</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Коттон</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Креп</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Мех искусственный</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Муслин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Неопрен</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Органза</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пайетки</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пальтовые</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Парча</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сетка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сорочечные ткани</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тафта</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тиси</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань для печворка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань трикотаж</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Утеплители</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li class="header-menu__line">
+                  <span class="header-menu__item" data-line="6">Новогодние</span>
+                  <div class="menu-wrapper menu-wrapper--6" data-menu="6">
+                     <div class="container menu-container">
+                        <div class="menu-items">
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Атлас</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бархат</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Батист</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Букле</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бязь</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельвет</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельсофт</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Джинс</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Дублерин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Замша</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Кожа искусственная</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Костюмные</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Коттон</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Креп</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Мех искусственный</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Муслин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Неопрен</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Органза</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пайетки</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пальтовые</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Парча</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сетка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сорочечные ткани</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тафта</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тиси</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань для печворка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань трикотаж</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Утеплители</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li class="header-menu__line">
+                  <span class="header-menu__item" data-line="7">Для шитья</span>
+                  <div class="menu-wrapper menu-wrapper--7" data-menu="7">
+                     <div class="container menu-container">
+                        <div class="menu-items">
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Атлас</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бархат</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Батист</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Букле</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Бязь</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельвет</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Вельсофт</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Джинс</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Дублерин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Замша</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Кожа искусственная</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Костюмные</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Коттон</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Креп</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Мех искусственный</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Муслин</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Неопрен</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Органза</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пайетки</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Пальтовые</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Парча</a></li>
+                           </ul>
+                           <ul class="menu-items__list">
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сетка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Сорочечные ткани</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тафта</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Тиси</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань для печворка</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Ткань трикотаж</a></li>
+                              <li class="menu-items__line"><a href="#" class="menu-item">Утеплители</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </header>
+   <!-- ? end of header -->
+
+   <!-- ? offer -->
+   <section class="offer" id="offer">
+      <div class="offer__container">
+         <div class="wrapper-for-slider">
+            <div class="swiper slider-block main-screen-slider">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide slide">
+                     <div class="container slider-container">
+                        <div class="slide-content">
+                           <h1 class="offer-title">
+                              Скидки 20% <span>на новые ткани</span>
+                           </h1>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                     <div class="container slider-container">
+                        <div class="slide-content">
+                           <h1 class="offer-title">
+                              Скидки 20% <span>на новые ткани</span>
+                           </h1>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                     <div class="container slider-container">
+                        <div class="slide-content">
+                           <h1 class="offer-title">
+                              Скидки 20% <span>на новые ткани</span>
+                           </h1>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                     <div class="container slider-container">
+                        <div class="slide-content">
+                           <h1 class="offer-title">
+                              Скидки 20% <span>на новые ткани</span>
+                           </h1>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="pagination-block">
+                  <div class="pagination-block--first-part">
+                     <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="arrows">
+                     <button class="slider-controller prev">
+                        <div class="img-button prev-img"></div>
+                     </button>
+                     <button class="slider-controller next">
+                        <div class="img-button next-img"></div>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ? end of offer -->
+
+   <!-- ? trigger -->
+   <section class="trigger" id="trigger">
+      <div class="container">
+         <div class="trigger-blocks-wrapper">
+            <div class="trigger-block trigger-block--first">
+               <div class="trigger-content">
+                  <span class="trigger-block__number">20%</span>
+                  <span class="trigger-block__text trigger-block__text--1">на новые ткани</span>
+               </div>
+            </div>
+            <div class="trigger-block trigger-block--second">
+               <div class="trigger-content">
+                  <span class="trigger-block__number">15%</span>
+                  <span class="trigger-block__text trigger-block__text--2">на ткани</span>
+               </div>
+            </div>
+            <div class="trigger-block trigger-block--third">
+               <div class="trigger-content">
+                  <span class="trigger-block__number">6%</span>
+                  <span class="trigger-block__text trigger-block__text--3">8 марта на ткани</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ? end of trigger -->
+
+   <!-- ? categories -->
+   <section class="categories" id="categories">
+      <div class="container">
+         <div class="bg-rectangle"></div>
+         <div class="section-title-fon"></div>
+            <h2 class="section-title categories-title">Популярные категории</h2>
+            <div class="categories-row">
+            <div class="categories-block categories-block--1 big-card">
+               <a href="#" class="overlay"></a>
+               <h4 class="category-text">Лен и полулен</h4>
+            </div>
+            <div class="categories-block categories-block--2 small-card">
+               <a href="#" class="overlay"></a>
+               <h4 class="category-text">Хлопок</h4>
+            </div>
+         </div>
+         <div class="categories-row">
+            <div class="categories-block categories-block--3 small-card">
+               <a href="#" class="overlay"></a>
+               <h4 class="category-text">Вискоза</h4>
+            </div>
+            <div class="categories-block categories-block--4 big-card">
+               <a href="#" class="overlay"></a>
+               <h4 class="category-text">Новогодние ткани</h4>
+            </div>
+         </div>
+         <div class="categories-row">
+            <div class="categories-block categories-block--5 small-card">
+               <a href="#" class="overlay"></a>
+               <h4 class="category-text">Лен и полулен</h4>
+            </div>
+            <div class="categories-block categories-block--6 small-card">
+               <a href="#" class="overlay"></a>
+               <h4 class="category-text">Хлопок</h4>
+            </div>
+            <div class="categories-block categories-block--7 small-card">
+               <a href="#" class="overlay"></a>
+               <h4 class="category-text">Вискоза</h4>
+            </div>
+            <div class="categories-block categories-block--8 big-card vicos-card">
+               <a href="#" class="overlay"></a>
+               <h4 class="category-text">Вискоза</h4>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ? end of categories -->
+
+   <!-- ? seen -->
+   <section class="seen" id="seen">
+      <div class="container">
+         <div class="section-title-fon-seen"></div>
+         <h2 class="section-title categories-title title-seen">Вы смотрели</h2>
+         <div class="seen-swiper swiper">
+            <div class="visited-cards-wrapper swiper-wrapper">
+               <div class="visited-card swiper-slide">
+                  <div class="visited-card__image-wrapper">
+                     <a href="#" class="go-to-shop"></a>
+                     <button type="button" class="like-product"></button>
+                     <img src="assets/img/main-page/you-seen/img-1.png" class="visited-card__image">
+                  </div>
+                  <div class="visited-card__info-wrapper">
+                     <span class="visited-card__note">
+                        Рогожка
+                     </span>
+                     <h4 class="visited-card__title">
+                        Альпийская деревенька
+                     </h4>
+                     <ul class="visited-card__list">
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Ширина</span>
+                           <span class="visited-card__item value-of-property">1.5 м
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Состав</span>
+                           <span class="visited-card__item value-of-property">100%
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Плотность</span>
+                           <span class="visited-card__item value-of-property">170 гр/м2</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="price-and-bag-block">
+                     <div class="price-block">
+                        <span class="price big-price">240 ₽</span>
+                        <span class="price small-price">360 ₽</span>
+                     </div>
+                     <button type="button" class="in-bag">В корзину</button>
+                  </div>
+               </div>
+               <div class="visited-card swiper-slide">
+                  <div class="visited-card__image-wrapper">
+                     <a href="#" class="go-to-shop active"></a>
+                     <button type="button" class="like-product"></button>
+                     <img src="assets/img/main-page/you-seen/img-2.png" class="visited-card__image">
+                  </div>
+                  <div class="visited-card__info-wrapper">
+                     <span class="visited-card__note">
+                        Рогожка
+                     </span>
+                     <h4 class="visited-card__title">
+                        Альпийская деревенька
+                     </h4>
+                     <ul class="visited-card__list">
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Ширина</span>
+                           <span class="visited-card__item value-of-property">1.5 м
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Состав</span>
+                           <span class="visited-card__item value-of-property">100%
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Плотность</span>
+                           <span class="visited-card__item value-of-property">170 гр/м2</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="price-and-bag-block">
+                     <div class="price-block">
+                        <span class="price big-price">240 ₽</span>
+                        <span class="price small-price">360 ₽</span>
+                     </div>
+                     <button type="button" class="in-bag">В корзину</button>
+                  </div>
+               </div>
+               <div class="visited-card swiper-slide">
+                  <div class="visited-card__image-wrapper">
+                     <a href="#" class="go-to-shop"></a>
+                     <button type="button" class="like-product"></button>
+                     <img src="assets/img/main-page/you-seen/img-3.png" class="visited-card__image">
+                  </div>
+                  <div class="visited-card__info-wrapper">
+                     <span class="visited-card__note">
+                        Рогожка
+                     </span>
+                     <h4 class="visited-card__title">
+                        Альпийская деревенька
+                     </h4>
+                     <ul class="visited-card__list">
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Ширина</span>
+                           <span class="visited-card__item value-of-property">1.5 м
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Состав</span>
+                           <span class="visited-card__item value-of-property">100%
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Плотность</span>
+                           <span class="visited-card__item value-of-property">170 гр/м2</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="price-and-bag-block">
+                     <div class="price-block">
+                        <span class="price big-price">240 ₽</span>
+                        <span class="price small-price">360 ₽</span>
+                     </div>
+                     <button type="button" class="in-bag">В корзину</button>
+                  </div>
+               </div>
+               <div class="visited-card swiper-slide">
+                  <div class="visited-card__image-wrapper">
+                     <a href="#" class="go-to-shop"></a>
+                     <button type="button" class="like-product"></button>
+                     <img src="assets/img/main-page/you-seen/img-1.png" class="visited-card__image">
+                  </div>
+                  <div class="visited-card__info-wrapper">
+                     <span class="visited-card__note">
+                        Рогожка
+                     </span>
+                     <h4 class="visited-card__title">
+                        Альпийская деревенька
+                     </h4>
+                     <ul class="visited-card__list">
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Ширина</span>
+                           <span class="visited-card__item value-of-property">1.5 м
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Состав</span>
+                           <span class="visited-card__item value-of-property">100%
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Плотность</span>
+                           <span class="visited-card__item value-of-property">170 гр/м2</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="price-and-bag-block">
+                     <div class="price-block">
+                        <span class="price big-price">240 ₽</span>
+                        <span class="price small-price">360 ₽</span>
+                     </div>
+                     <button type="button" class="in-bag">В корзину</button>
+                  </div>
+               </div>
+               <div class="visited-card swiper-slide">
+                  <div class="visited-card__image-wrapper">
+                     <a href="#" class="go-to-shop active"></a>
+                     <button type="button" class="like-product"></button>
+                     <img src="assets/img/main-page/you-seen/img-2.png" class="visited-card__image">
+                  </div>
+                  <div class="visited-card__info-wrapper">
+                     <span class="visited-card__note">
+                        Рогожка
+                     </span>
+                     <h4 class="visited-card__title">
+                        Альпийская деревенька
+                     </h4>
+                     <ul class="visited-card__list">
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Ширина</span>
+                           <span class="visited-card__item value-of-property">1.5 м
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Состав</span>
+                           <span class="visited-card__item value-of-property">100%
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Плотность</span>
+                           <span class="visited-card__item value-of-property">170 гр/м2</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="price-and-bag-block">
+                     <div class="price-block">
+                        <span class="price big-price">240 ₽</span>
+                        <span class="price small-price">360 ₽</span>
+                     </div>
+                     <button type="button" class="in-bag">В корзину</button>
+                  </div>
+               </div>
+               <div class="visited-card swiper-slide">
+                  <div class="visited-card__image-wrapper">
+                     <a href="#" class="go-to-shop"></a>
+                     <button type="button" class="like-product"></button>
+                     <img src="assets/img/main-page/you-seen/img-3.png" class="visited-card__image">
+                  </div>
+                  <div class="visited-card__info-wrapper">
+                     <span class="visited-card__note">
+                        Рогожка
+                     </span>
+                     <h4 class="visited-card__title">
+                        Альпийская деревенька
+                     </h4>
+                     <ul class="visited-card__list">
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Ширина</span>
+                           <span class="visited-card__item value-of-property">1.5 м
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Состав</span>
+                           <span class="visited-card__item value-of-property">100%
+                           </span>
+                        </li>
+                        <li class="visited-card__line">
+                           <span class="visited-card__item name-of-property">Плотность</span>
+                           <span class="visited-card__item value-of-property">170 гр/м2</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="price-and-bag-block">
+                     <div class="price-block">
+                        <span class="price big-price">240 ₽</span>
+                        <span class="price small-price">360 ₽</span>
+                     </div>
+                     <button type="button" class="in-bag">В корзину</button>
+                  </div>
+               </div>
+            </div>
+            <button type="button" class="seen-slider-controller swiper-button-prev"></button>
+            <button type="button" class="seen-slider-controller swiper-button-next"></button>
+         </div>
+      </div>
+   </section>
+   <!-- ? end of seen -->
+   <section class="mailing" id="mailing">
+      <div class="container">
+         <div class="banner">
+            <div class="banner-text">
+               <h3 class="text-title">
+                  ПОДПИШИТЕСЬ НА РАССЫЛКУ
+               </h3>
+               <p class="text-text">
+                  Будьте в курсе наших акций
+               </p>
+            </div>
+            <div class="banner-form">
+               <form action="#" class="banner-form_form">
+                  <input type="email" class="mailing-form" placeholder="Ваша почта" required>
+                  <button type="submit" class="mailing-btn">
+                     Подписаться
+                  </button>
+               </form>
+               <span class="mailing-subcribe">
+                  Нажимая кнопку, вы даете согласие на обработку ваших персональных данных в соответствии с
+                  <a href="#" class="mailing-config"> Политикой Конфиденциальности </a>
+               </span>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer class="footer" id="footer">
+      <div class="container">
+         <div class="bak-footer"></div>
+         <div class="footer-block">
+            <div class="footer-info">
+               <div class="footer-info_category">
+                  <h5 class="footer-title"> Наши контакты </h5>
+                  <ul class="contacts-list">
+                     <li class="contacts-list__cont">8 800 900 70 90</li>
+                     <li class="contacts-list__cont">г. Орск Проспект Ленина 71 / А</li>
+                     <li class="contacts-list__cont">Пн-вс: 10:00 - 21:00</li>
+                     <li class="contacts-list__cont"> без выходных</li>
+                  </ul>
+                  <div class="footer-social">
+                     <a class="footer-social__img cosial" href="https://www.instagram.com/"
+                        rel="nofollow noopener noreferrer" target="_blank"> </a>
+                     <a class="footer-social__img social" href="https://vk.com/" rel="nofollow noopener noreferrer"
+                        target="_blank"> </a>
+                  </div>
+                  <a href="#" class="confid"> Политика конфиденциальности </a>
+               </div>
+               <div class="footer-line"></div>
+               <div class="footer-info_payment">
+                  <h5 class="footer-title"> Способы оплаты </h5>
+                  <ul class="payment-list">
+                     <li class="payment-list__cart"><a href="#" class="visa"></a></li>
+                     <li class="payment-list__cart"><a href="#" class="pay-pal"></a></li>
+                     <li class="payment-list__cart"><a href="#" class="master-card"></a></li>
+                  </ul>
+                  <span class="confid rights"> Все права защищены (С) </span>
+               </div>
+            </div>
+            <div class="footer-map">
+
+            </div>
+         </div>
+      </div>
+      </div>
+   </footer>
+
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script src="assets/js/swiper.js"></script>
+
+</body>
+
+</html>
+
+<!-- Убрать крестик в поиске хэдэр -->
+<!-- Можно сделать прокрутку из хэдэр к карте в футере -->
+<!-- В заголовке хэдэра на фон поставить слово -->
